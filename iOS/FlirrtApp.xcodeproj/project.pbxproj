@@ -17,6 +17,8 @@
 		3C4D5E6F7890ABCD12345680 /* AppGroupCommunicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4D5E6F7890ABCD12345678 /* AppGroupCommunicator.swift */; };
 		3C4D5E6F7890ABCD12345681 /* PhotoPickerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4D5E6F7890ABCD12345682 /* PhotoPickerManager.swift */; };
 		3C4D5E6F7890ABCD12345683 /* PhotoPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4D5E6F7890ABCD12345684 /* PhotoPickerView.swift */; };
+		4D5E6F7890ABCD1234567890 /* AppGroupsDebugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5E6F7890ABCD1234567891 /* AppGroupsDebugView.swift */; };
+		4D5E6F7890ABCD1234567892 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5E6F7890ABCD1234567893 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 		3C4D5E6F7890ABCD12345678 /* AppGroupCommunicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppGroupCommunicator.swift; sourceTree = "<group>"; };
 		3C4D5E6F7890ABCD12345682 /* PhotoPickerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickerManager.swift; sourceTree = "<group>"; };
 		3C4D5E6F7890ABCD12345684 /* PhotoPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickerView.swift; sourceTree = "<group>"; };
+		4D5E6F7890ABCD1234567891 /* AppGroupsDebugView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppGroupsDebugView.swift; sourceTree = "<group>"; };
+		4D5E6F7890ABCD1234567893 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,10 +97,11 @@
 			children = (
 				1A2B3C4D5E6F7890ABCD1233 /* FlirrtApp.swift */,
 				1A2B3C4D5E6F7890ABCD1234 /* ContentView.swift */,
+				4D5E6F7890ABCD1234567893 /* SettingsView.swift */,
 				1A2B3C4D5E6F7890ABCD1235 /* Assets.xcassets */,
 				1A2B3C4D5E6F7890ABCD1238 /* Info.plist */,
 				1A2B3C4D5E6F7890ABCD1239 /* FlirrtApp.entitlements */,
-				1A2B3C4D5E6F7890ABCD1240 /* Preview Content */,
+				1A2B3C4D5E6F7890ABCD1237 /* Preview Content */,
 			);
 			path = FlirrtApp;
 			sourceTree = "<group>";
@@ -134,6 +139,7 @@
 				3C4D5E6F7890ABCD12345678 /* AppGroupCommunicator.swift */,
 				3C4D5E6F7890ABCD12345682 /* PhotoPickerManager.swift */,
 				3C4D5E6F7890ABCD12345684 /* PhotoPickerView.swift */,
+				4D5E6F7890ABCD1234567891 /* AppGroupsDebugView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -243,6 +249,8 @@
 				3C4D5E6F7890ABCD12345679 /* AppGroupCommunicator.swift in Sources */,
 				3C4D5E6F7890ABCD12345681 /* PhotoPickerManager.swift in Sources */,
 				3C4D5E6F7890ABCD12345683 /* PhotoPickerView.swift in Sources */,
+				4D5E6F7890ABCD1234567890 /* AppGroupsDebugView.swift in Sources */,
+				4D5E6F7890ABCD1234567892 /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
