@@ -61,7 +61,8 @@
 		3C4D5E6F7890ABCD12345682 /* PhotoPickerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickerManager.swift; sourceTree = "<group>"; };
 		3C4D5E6F7890ABCD12345684 /* PhotoPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickerView.swift; sourceTree = "<group>"; };
 		4D5E6F7890ABCD1234567891 /* AppGroupsDebugView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppGroupsDebugView.swift; sourceTree = "<group>"; };
-		4D5E6F7890ABCD1234567893 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		4D5E6F7890ABCD1234567892 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		5E6F7890ABCD123456789012 /* AIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +141,7 @@
 				3C4D5E6F7890ABCD12345682 /* PhotoPickerManager.swift */,
 				3C4D5E6F7890ABCD12345684 /* PhotoPickerView.swift */,
 				4D5E6F7890ABCD1234567891 /* AppGroupsDebugView.swift */,
+				5E6F7890ABCD123456789012 /* AIService.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -251,6 +253,7 @@
 				3C4D5E6F7890ABCD12345683 /* PhotoPickerView.swift in Sources */,
 				4D5E6F7890ABCD1234567890 /* AppGroupsDebugView.swift in Sources */,
 				4D5E6F7890ABCD1234567892 /* SettingsView.swift in Sources */,
+				5E6F7890ABCD123456789013 /* AIService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

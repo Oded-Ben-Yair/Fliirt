@@ -9,6 +9,7 @@ class AppGroupCommunicator {
     private let photoRequestTimeKey = "photoSelectionRequestTime"
     private let selectedPhotoKey = "selectedPhotoData"
     private let aiSuggestionsKey = "aiSuggestions"
+    private let currentTextKey = "currentText"
     
     private var sharedDefaults: UserDefaults? {
         return UserDefaults(suiteName: suiteName)
@@ -108,6 +109,28 @@ class AppGroupCommunicator {
         print("🧹 AI suggestions cleared from App Groups")
     }
     
+    // MARK: - Current Text Context
+    
+    /// Store current text context for AI analysis
+    func storeCurrentText(_ text: String) {
+        guard let defaults = sharedDefaults else { return }
+        defaults.set(text, forKey: currentTextKey)
+        defaults.synchronize()
+    }
+    
+    /// Retrieve current text context
+    func getCurrentText() -> String? {
+        guard let defaults = sharedDefaults else { return nil }
+        return defaults.string(forKey: currentTextKey)
+    }
+    
+    /// Clear current text context
+    func clearCurrentText() {
+        guard let defaults = sharedDefaults else { return }
+        defaults.removeObject(forKey: currentTextKey)
+        defaults.synchronize()
+    }
+    
     // MARK: - Debugging
     
     /// Print current state of all shared data
@@ -122,6 +145,7 @@ class AppGroupCommunicator {
         print("  - Photo Request Time: \(defaults.object(forKey: photoRequestTimeKey) ?? "nil")")
         print("  - Photo Data Size: \(defaults.data(forKey: selectedPhotoKey)?.count ?? 0) bytes")
         print("  - AI Suggestions: \(defaults.stringArray(forKey: aiSuggestionsKey) ?? [])")
+        print("  - Current Text: \(defaults.string(forKey: currentTextKey) ?? "nil")")
     }
 }
 

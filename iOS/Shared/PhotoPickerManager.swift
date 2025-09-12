@@ -7,8 +7,11 @@ class PhotoPickerManager: ObservableObject {
     @Published var selectedImage: UIImage?
     @Published var isShowingPhotoPicker = false
     @Published var isProcessingPhoto = false
+    @Published var lastAnalysisResult: AIAnalysisResponse?
+    @Published var errorMessage: String?
     
     private let communicator = AppGroupCommunicator.shared
+    private let aiService = AIService.shared
     
     /// Handle photo selection from PHPickerViewController
     func handlePhotoSelection(_ result: Result<[PHPickerResult], Error>) {
@@ -17,19 +20,22 @@ class PhotoPickerManager: ObservableObject {
             guard let firstResult = results.first else { return }
             
             isProcessingPhoto = true
+            errorMessage = nil
             
             // Load the image data
             firstResult.itemProvider.loadObject(ofClass: UIImage.self) { [weak self] object, error in
                 DispatchQueue.main.async {
-                    self?.isProcessingPhoto = false
-                    
                     if let error = error {
                         print("❌ Error loading image: \(error)")
+                        self?.isProcessingPhoto = false
+                        self?.errorMessage = "Failed to load image"
                         return
                     }
                     
                     guard let image = object as? UIImage else {
                         print("❌ Failed to cast object to UIImage")
+                        self?.isProcessingPhoto = false
+                        self?.errorMessage = "Invalid image format"
                         return
                     }
                     
@@ -41,6 +47,7 @@ class PhotoPickerManager: ObservableObject {
         case .failure(let error):
             print("❌ Photo picker error: \(error)")
             isProcessingPhoto = false
+            errorMessage = "Photo selection failed"
         }
     }
     
@@ -51,6 +58,8 @@ class PhotoPickerManager: ObservableObject {
         // Convert image to data for storage
         guard let imageData = image.jpegData(compressionQuality: 0.8) else {
             print("❌ Failed to convert image to data")
+            isProcessingPhoto = false
+            errorMessage = "Failed to process image"
             return
         }
         
@@ -63,24 +72,77 @@ class PhotoPickerManager: ObservableObject {
         print("✅ Image processed and stored for keyboard access")
         
         // Trigger AI analysis
-        triggerAIAnalysis(imageData: imageData)
+        Task {
+            await performAIAnalysis(image: image)
+        }
     }
     
-    /// Trigger AI analysis of the selected image
-    private func triggerAIAnalysis(imageData: Data) {
-        print("🤖 Triggering AI analysis...")
+    /// Perform AI analysis of the selected image
+    private func performAIAnalysis(image: UIImage) async {
+        print("🤖 Starting AI analysis...")
         
-        // For now, simulate AI analysis with mock suggestions
-        // This will be replaced with actual AI integration in Phase 5
-        DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) { [weak self] in
-            let mockSuggestions = [
-                "Hey! I love your style 😍",
-                "That photo is amazing! Where was it taken?",
-                "You seem like someone I'd love to get to know better ✨"
-            ]
+        do {
+            // Get current text context from App Groups if available
+            let currentText = communicator.getCurrentText() ?? ""
             
-            self?.communicator.storeAISuggestions(mockSuggestions)
-            print("✅ Mock AI suggestions stored")
+            // Perform AI analysis
+            let analysisResult = try await aiService.analyzeScreenshot(
+                image: image,
+                currentText: currentText,
+                context: "dating_app_screenshot"
+            )
+            
+            await MainActor.run {
+                self.lastAnalysisResult = analysisResult
+                self.isProcessingPhoto = false
+                
+                // Store AI suggestions in App Groups for keyboard access
+                self.communicator.storeAISuggestions(analysisResult.suggestions)
+                
+                print("✅ AI analysis complete: \(analysisResult.suggestions.count) suggestions")
+                print("📝 Suggestions: \(analysisResult.suggestions)")
+            }
+            
+        } catch {
+            print("❌ AI analysis failed: \(error)")
+            
+            await MainActor.run {
+                self.isProcessingPhoto = false
+                self.errorMessage = "AI analysis failed: \(error.localizedDescription)"
+                
+                // Fallback to mock suggestions
+                let fallbackSuggestions = [
+                    "Hey! I love your style 😍",
+                    "That photo is amazing! Where was it taken?",
+                    "You seem like someone I'd love to get to know better ✨"
+                ]
+                
+                self.communicator.storeAISuggestions(fallbackSuggestions)
+                print("🔄 Using fallback suggestions")
+            }
+        }
+    }
+    
+    /// Test AI service with mock data
+    func testAIService() async {
+        isProcessingPhoto = true
+        errorMessage = nil
+        
+        do {
+            let suggestions = try await aiService.testSuggestions(context: "test")
+            
+            await MainActor.run {
+                self.isProcessingPhoto = false
+                self.communicator.storeAISuggestions(suggestions)
+                print("✅ AI test successful: \(suggestions)")
+            }
+            
+        } catch {
+            await MainActor.run {
+                self.isProcessingPhoto = false
+                self.errorMessage = "AI test failed: \(error.localizedDescription)"
+                print("❌ AI test failed: \(error)")
+            }
         }
     }
     
@@ -97,6 +159,19 @@ class PhotoPickerManager: ObservableObject {
         selectedImage = nil
         isShowingPhotoPicker = false
         isProcessingPhoto = false
+        lastAnalysisResult = nil
+        errorMessage = nil
+    }
+    
+    /// Get the last analysis summary for display
+    func getAnalysisSummary() -> String? {
+        guard let result = lastAnalysisResult else { return nil }
+        
+        return """
+        Analysis: \(result.visualAnalysis.prefix(100))...
+        Suggestions: \(result.suggestions.count)
+        Models: \(result.modelUsed.visual) + \(result.modelUsed.flirting)
+        """
     }
 }
 
