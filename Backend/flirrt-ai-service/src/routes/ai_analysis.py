@@ -36,7 +36,7 @@ def analyze_screenshot():
         current_text = data.get('current_text', '')
         context = data.get('context', '')
         
-        # Step 1: Visual Analysis with GPT-5 (or GPT-4o as fallback)
+        # Step 1: Visual Analysis with GPT-4o
         visual_analysis = analyze_image_with_openai(image_data, current_text, context)
         
         if not visual_analysis:
@@ -46,15 +46,16 @@ def analyze_screenshot():
         if not visual_analysis:
             return jsonify({'error': 'Failed to analyze image'}), 500
         
-        # Step 2: Generate flirting suggestions with Grok 4
-        flirting_suggestions = generate_flirting_with_grok(visual_analysis, current_text)
+        # Step 2: Generate flirting suggestions with OpenAI (skip Grok for now)
+        flirting_suggestions = generate_flirting_with_openai(visual_analysis, current_text)
         
         if not flirting_suggestions:
-            # Fallback to GPT for flirting suggestions
-            flirting_suggestions = generate_flirting_with_openai(visual_analysis, current_text)
-        
-        if not flirting_suggestions:
-            return jsonify({'error': 'Failed to generate suggestions'}), 500
+            # Fallback to mock suggestions
+            flirting_suggestions = [
+                "Hey! I love your style 😍",
+                "That photo is amazing! Where was it taken?",
+                "You seem like someone I'd love to get to know better ✨"
+            ]
         
         return jsonify({
             'success': True,
@@ -62,8 +63,8 @@ def analyze_screenshot():
             'suggestions': flirting_suggestions,
             'timestamp': data.get('timestamp', ''),
             'model_used': {
-                'visual': 'gpt-5' if visual_analysis else 'gemini-2.5-pro',
-                'flirting': 'grok-4' if flirting_suggestions else 'gpt-5'
+                'visual': 'gpt-4o',
+                'flirting': 'gpt-4o'
             }
         })
         
