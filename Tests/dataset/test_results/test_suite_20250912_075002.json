@@ -1,0 +1,1410 @@
+{
+  "test_suite_results": [
+    {
+      "image_path": "dataset/web_screenshots/dQJ1HTxgAFCI.jpg",
+      "scenario": "Young Professional Male",
+      "context": {
+        "user_gender": "male",
+        "target_gender": "female",
+        "age_range": "25-30",
+        "app_type": "Hinge"
+      },
+      "ai_result": {
+        "primary_analysis": {
+          "error": "GPT-4o analysis failed: Connection error.",
+          "model_used": "gpt-4o",
+          "success": false
+        },
+        "enhanced_suggestions": [],
+        "processing_time": 4.26,
+        "models_used": [
+          "gpt-4o"
+        ],
+        "final_suggestions": [],
+        "total_suggestions_generated": 0
+      },
+      "suggestions": [],
+      "quality_scores": {
+        "overall_score": 0.0,
+        "detailed_scores": {},
+        "quality_grade": "poor",
+        "issues": [
+          "No suggestions generated"
+        ]
+      },
+      "processing_time": 4.26,
+      "timestamp": "2025-09-12T07:48:53.336912"
+    },
+    {
+      "image_path": "dataset/user_screenshots/IMG_7995 (1).jpeg",
+      "scenario": "Young Professional Male",
+      "context": {
+        "user_gender": "male",
+        "target_gender": "female",
+        "age_range": "25-30",
+        "app_type": "Instagram"
+      },
+      "ai_result": {
+        "primary_analysis": {
+          "error": "GPT-4o analysis failed: Connection error.",
+          "model_used": "gpt-4o",
+          "success": false
+        },
+        "enhanced_suggestions": [],
+        "processing_time": 4.71,
+        "models_used": [
+          "gpt-4o"
+        ],
+        "final_suggestions": [],
+        "total_suggestions_generated": 0
+      },
+      "suggestions": [],
+      "quality_scores": {
+        "overall_score": 0.0,
+        "detailed_scores": {},
+        "quality_grade": "poor",
+        "issues": [
+          "No suggestions generated"
+        ]
+      },
+      "processing_time": 4.71,
+      "timestamp": "2025-09-12T07:48:58.043457"
+    },
+    {
+      "image_path": "dataset/user_screenshots/IMG_7989 (1).jpeg",
+      "scenario": "Young Professional Male",
+      "context": {
+        "user_gender": "male",
+        "target_gender": "female",
+        "age_range": "25-30",
+        "app_type": "Tinder"
+      },
+      "ai_result": {
+        "primary_analysis": {
+          "error": "GPT-4o analysis failed: Connection error.",
+          "model_used": "gpt-4o",
+          "success": false
+        },
+        "enhanced_suggestions": [],
+        "processing_time": 4.63,
+        "models_used": [
+          "gpt-4o"
+        ],
+        "final_suggestions": [],
+        "total_suggestions_generated": 0
+      },
+      "suggestions": [],
+      "quality_scores": {
+        "overall_score": 0.0,
+        "detailed_scores": {},
+        "quality_grade": "poor",
+        "issues": [
+          "No suggestions generated"
+        ]
+      },
+      "processing_time": 4.63,
+      "timestamp": "2025-09-12T07:49:02.678256"
+    },
+    {
+      "image_path": "dataset/user_screenshots/IMG_7998 (1).jpeg",
+      "scenario": "Active Female",
+      "context": {
+        "user_gender": "female",
+        "target_gender": "male",
+        "age_range": "22-28",
+        "app_type": "Hinge"
+      },
+      "ai_result": {
+        "primary_analysis": {
+          "error": "GPT-4o analysis failed: Connection error.",
+          "model_used": "gpt-4o",
+          "success": false
+        },
+        "enhanced_suggestions": [],
+        "processing_time": 4.35,
+        "models_used": [
+          "gpt-4o"
+        ],
+        "final_suggestions": [],
+        "total_suggestions_generated": 0
+      },
+      "suggestions": [],
+      "quality_scores": {
+        "overall_score": 0.0,
+        "detailed_scores": {},
+        "quality_grade": "poor",
+        "issues": [
+          "No suggestions generated"
+        ]
+      },
+      "processing_time": 4.35,
+      "timestamp": "2025-09-12T07:49:07.027148"
+    },
+    {
+      "image_path": "dataset/user_screenshots/IMG_7996 (1).jpeg",
+      "scenario": "Active Female",
+      "context": {
+        "user_gender": "female",
+        "target_gender": "male",
+        "age_range": "22-28",
+        "app_type": "Hinge"
+      },
+      "ai_result": {
+        "primary_analysis": {
+          "error": "GPT-4o analysis failed: Connection error.",
+          "model_used": "gpt-4o",
+          "success": false
+        },
+        "enhanced_suggestions": [],
+        "processing_time": 4.31,
+        "models_used": [
+          "gpt-4o"
+        ],
+        "final_suggestions": [],
+        "total_suggestions_generated": 0
+      },
+      "suggestions": [],
+      "quality_scores": {
+        "overall_score": 0.0,
+        "detailed_scores": {},
+        "quality_grade": "poor",
+        "issues": [
+          "No suggestions generated"
+        ]
+      },
+      "processing_time": 4.31,
+      "timestamp": "2025-09-12T07:49:11.337308"
+    },
+    {
+      "image_path": "dataset/web_screenshots/lbzBkUAFkUSH.jpg",
+      "scenario": "Active Female",
+      "context": {
+        "user_gender": "female",
+        "target_gender": "male",
+        "age_range": "22-28",
+        "app_type": "Bumble"
+      },
+      "ai_result": {
+        "primary_analysis": {
+          "error": "GPT-4o analysis failed: Connection error.",
+          "model_used": "gpt-4o",
+          "success": false
+        },
+        "enhanced_suggestions": [],
+        "processing_time": 4.13,
+        "models_used": [
+          "gpt-4o"
+        ],
+        "final_suggestions": [],
+        "total_suggestions_generated": 0
+      },
+      "suggestions": [],
+      "quality_scores": {
+        "overall_score": 0.0,
+        "detailed_scores": {},
+        "quality_grade": "poor",
+        "issues": [
+          "No suggestions generated"
+        ]
+      },
+      "processing_time": 4.13,
+      "timestamp": "2025-09-12T07:49:15.469340"
+    },
+    {
+      "image_path": "dataset/user_screenshots/IMG_8010 (1).jpeg",
+      "scenario": "Creative Artist",
+      "context": {
+        "user_gender": "female",
+        "target_gender": "male",
+        "age_range": "20-35",
+        "app_type": "Tinder"
+      },
+      "ai_result": {
+        "primary_analysis": {
+          "error": "GPT-4o analysis failed: Connection error.",
+          "model_used": "gpt-4o",
+          "success": false
+        },
+        "enhanced_suggestions": [],
+        "processing_time": 4.76,
+        "models_used": [
+          "gpt-4o"
+        ],
+        "final_suggestions": [],
+        "total_suggestions_generated": 0
+      },
+      "suggestions": [],
+      "quality_scores": {
+        "overall_score": 0.0,
+        "detailed_scores": {},
+        "quality_grade": "poor",
+        "issues": [
+          "No suggestions generated"
+        ]
+      },
+      "processing_time": 4.76,
+      "timestamp": "2025-09-12T07:49:20.228496"
+    },
+    {
+      "image_path": "dataset/user_screenshots/IMG_7999 (1).jpeg",
+      "scenario": "Creative Artist",
+      "context": {
+        "user_gender": "male",
+        "target_gender": "female",
+        "age_range": "20-35",
+        "app_type": "Instagram"
+      },
+      "ai_result": {
+        "primary_analysis": {
+          "error": "GPT-4o analysis failed: Connection error.",
+          "model_used": "gpt-4o",
+          "success": false
+        },
+        "enhanced_suggestions": [],
+        "processing_time": 4.69,
+        "models_used": [
+          "gpt-4o"
+        ],
+        "final_suggestions": [],
+        "total_suggestions_generated": 0
+      },
+      "suggestions": [],
+      "quality_scores": {
+        "overall_score": 0.0,
+        "detailed_scores": {},
+        "quality_grade": "poor",
+        "issues": [
+          "No suggestions generated"
+        ]
+      },
+      "processing_time": 4.69,
+      "timestamp": "2025-09-12T07:49:24.923332"
+    },
+    {
+      "image_path": "dataset/web_screenshots/4qhnYEZhWrJQ.jpg",
+      "scenario": "Creative Artist",
+      "context": {
+        "user_gender": "female",
+        "target_gender": "male",
+        "age_range": "20-35",
+        "app_type": "Hinge"
+      },
+      "ai_result": {
+        "primary_analysis": {
+          "error": "GPT-4o analysis failed: Connection error.",
+          "model_used": "gpt-4o",
+          "success": false
+        },
+        "enhanced_suggestions": [],
+        "processing_time": 3.83,
+        "models_used": [
+          "gpt-4o"
+        ],
+        "final_suggestions": [],
+        "total_suggestions_generated": 0
+      },
+      "suggestions": [],
+      "quality_scores": {
+        "overall_score": 0.0,
+        "detailed_scores": {},
+        "quality_grade": "poor",
+        "issues": [
+          "No suggestions generated"
+        ]
+      },
+      "processing_time": 3.83,
+      "timestamp": "2025-09-12T07:49:28.752461"
+    },
+    {
+      "image_path": "dataset/user_screenshots/IMG_7983 (1).jpeg",
+      "scenario": "Travel Enthusiast",
+      "context": {
+        "user_gender": "female",
+        "target_gender": "female",
+        "age_range": "25-40",
+        "app_type": "Bumble"
+      },
+      "ai_result": {
+        "primary_analysis": {
+          "error": "GPT-4o analysis failed: Connection error.",
+          "model_used": "gpt-4o",
+          "success": false
+        },
+        "enhanced_suggestions": [],
+        "processing_time": 5.47,
+        "models_used": [
+          "gpt-4o"
+        ],
+        "final_suggestions": [],
+        "total_suggestions_generated": 0
+      },
+      "suggestions": [],
+      "quality_scores": {
+        "overall_score": 0.0,
+        "detailed_scores": {},
+        "quality_grade": "poor",
+        "issues": [
+          "No suggestions generated"
+        ]
+      },
+      "processing_time": 5.47,
+      "timestamp": "2025-09-12T07:49:34.224338"
+    },
+    {
+      "image_path": "dataset/user_screenshots/IMG_7987 (1).jpeg",
+      "scenario": "Travel Enthusiast",
+      "context": {
+        "user_gender": "female",
+        "target_gender": "male",
+        "age_range": "25-40",
+        "app_type": "Instagram"
+      },
+      "ai_result": {
+        "primary_analysis": {
+          "error": "GPT-4o analysis failed: Connection error.",
+          "model_used": "gpt-4o",
+          "success": false
+        },
+        "enhanced_suggestions": [],
+        "processing_time": 4.27,
+        "models_used": [
+          "gpt-4o"
+        ],
+        "final_suggestions": [],
+        "total_suggestions_generated": 0
+      },
+      "suggestions": [],
+      "quality_scores": {
+        "overall_score": 0.0,
+        "detailed_scores": {},
+        "quality_grade": "poor",
+        "issues": [
+          "No suggestions generated"
+        ]
+      },
+      "processing_time": 4.27,
+      "timestamp": "2025-09-12T07:49:38.495970"
+    },
+    {
+      "image_path": "dataset/user_screenshots/IMG_8002 (1).jpeg",
+      "scenario": "Travel Enthusiast",
+      "context": {
+        "user_gender": "female",
+        "target_gender": "male",
+        "age_range": "25-40",
+        "app_type": "Instagram"
+      },
+      "ai_result": {
+        "primary_analysis": {
+          "error": "GPT-4o analysis failed: Connection error.",
+          "model_used": "gpt-4o",
+          "success": false
+        },
+        "enhanced_suggestions": [],
+        "processing_time": 2.24,
+        "models_used": [
+          "gpt-4o"
+        ],
+        "final_suggestions": [],
+        "total_suggestions_generated": 0
+      },
+      "suggestions": [],
+      "quality_scores": {
+        "overall_score": 0.0,
+        "detailed_scores": {},
+        "quality_grade": "poor",
+        "issues": [
+          "No suggestions generated"
+        ]
+      },
+      "processing_time": 2.24,
+      "timestamp": "2025-09-12T07:49:40.736551"
+    },
+    {
+      "image_path": "dataset/user_screenshots/IMG_7986 (1).jpeg",
+      "scenario": "Pet Lover",
+      "context": {
+        "user_gender": "female",
+        "target_gender": "female",
+        "age_range": "20-45",
+        "app_type": "Tinder"
+      },
+      "ai_result": {
+        "primary_analysis": {
+          "error": "GPT-4o analysis failed: Connection error.",
+          "model_used": "gpt-4o",
+          "success": false
+        },
+        "enhanced_suggestions": [],
+        "processing_time": 2.32,
+        "models_used": [
+          "gpt-4o"
+        ],
+        "final_suggestions": [],
+        "total_suggestions_generated": 0
+      },
+      "suggestions": [],
+      "quality_scores": {
+        "overall_score": 0.0,
+        "detailed_scores": {},
+        "quality_grade": "poor",
+        "issues": [
+          "No suggestions generated"
+        ]
+      },
+      "processing_time": 2.32,
+      "timestamp": "2025-09-12T07:49:43.058764"
+    },
+    {
+      "image_path": "dataset/web_screenshots/5bcAlH8lqJGT.jpg",
+      "scenario": "Pet Lover",
+      "context": {
+        "user_gender": "female",
+        "target_gender": "female",
+        "age_range": "20-45",
+        "app_type": "Bumble"
+      },
+      "ai_result": {
+        "primary_analysis": {
+          "error": "GPT-4o analysis failed: Connection error.",
+          "model_used": "gpt-4o",
+          "success": false
+        },
+        "enhanced_suggestions": [],
+        "processing_time": 2.07,
+        "models_used": [
+          "gpt-4o"
+        ],
+        "final_suggestions": [],
+        "total_suggestions_generated": 0
+      },
+      "suggestions": [],
+      "quality_scores": {
+        "overall_score": 0.0,
+        "detailed_scores": {},
+        "quality_grade": "poor",
+        "issues": [
+          "No suggestions generated"
+        ]
+      },
+      "processing_time": 2.07,
+      "timestamp": "2025-09-12T07:49:45.131614"
+    },
+    {
+      "image_path": "dataset/user_screenshots/IMG_7990 (1).jpeg",
+      "scenario": "Pet Lover",
+      "context": {
+        "user_gender": "female",
+        "target_gender": "female",
+        "age_range": "20-45",
+        "app_type": "Tinder"
+      },
+      "ai_result": {
+        "primary_analysis": {
+          "error": "GPT-4o analysis failed: Connection error.",
+          "model_used": "gpt-4o",
+          "success": false
+        },
+        "enhanced_suggestions": [],
+        "processing_time": 2.33,
+        "models_used": [
+          "gpt-4o"
+        ],
+        "final_suggestions": [],
+        "total_suggestions_generated": 0
+      },
+      "suggestions": [],
+      "quality_scores": {
+        "overall_score": 0.0,
+        "detailed_scores": {},
+        "quality_grade": "poor",
+        "issues": [
+          "No suggestions generated"
+        ]
+      },
+      "processing_time": 2.33,
+      "timestamp": "2025-09-12T07:49:47.465974"
+    },
+    {
+      "image_path": "dataset/user_screenshots/IMG_8009 (1).jpeg",
+      "scenario": "Foodie",
+      "context": {
+        "user_gender": "female",
+        "target_gender": "female",
+        "age_range": "22-40",
+        "app_type": "Hinge"
+      },
+      "ai_result": {
+        "primary_analysis": {
+          "error": "GPT-4o analysis failed: Connection error.",
+          "model_used": "gpt-4o",
+          "success": false
+        },
+        "enhanced_suggestions": [],
+        "processing_time": 2.32,
+        "models_used": [
+          "gpt-4o"
+        ],
+        "final_suggestions": [],
+        "total_suggestions_generated": 0
+      },
+      "suggestions": [],
+      "quality_scores": {
+        "overall_score": 0.0,
+        "detailed_scores": {},
+        "quality_grade": "poor",
+        "issues": [
+          "No suggestions generated"
+        ]
+      },
+      "processing_time": 2.32,
+      "timestamp": "2025-09-12T07:49:49.783951"
+    },
+    {
+      "image_path": "dataset/user_screenshots/IMG_7992 (1).jpeg",
+      "scenario": "Foodie",
+      "context": {
+        "user_gender": "female",
+        "target_gender": "male",
+        "age_range": "22-40",
+        "app_type": "Instagram"
+      },
+      "ai_result": {
+        "primary_analysis": {
+          "error": "GPT-4o analysis failed: Connection error.",
+          "model_used": "gpt-4o",
+          "success": false
+        },
+        "enhanced_suggestions": [],
+        "processing_time": 5.07,
+        "models_used": [
+          "gpt-4o"
+        ],
+        "final_suggestions": [],
+        "total_suggestions_generated": 0
+      },
+      "suggestions": [],
+      "quality_scores": {
+        "overall_score": 0.0,
+        "detailed_scores": {},
+        "quality_grade": "poor",
+        "issues": [
+          "No suggestions generated"
+        ]
+      },
+      "processing_time": 5.07,
+      "timestamp": "2025-09-12T07:49:54.855647"
+    },
+    {
+      "image_path": "dataset/user_screenshots/IMG_7984 (1).jpeg",
+      "scenario": "Foodie",
+      "context": {
+        "user_gender": "male",
+        "target_gender": "female",
+        "age_range": "22-40",
+        "app_type": "Hinge"
+      },
+      "ai_result": {
+        "primary_analysis": {
+          "error": "GPT-4o analysis failed: Connection error.",
+          "model_used": "gpt-4o",
+          "success": false
+        },
+        "enhanced_suggestions": [],
+        "processing_time": 7.17,
+        "models_used": [
+          "gpt-4o"
+        ],
+        "final_suggestions": [],
+        "total_suggestions_generated": 0
+      },
+      "suggestions": [],
+      "quality_scores": {
+        "overall_score": 0.0,
+        "detailed_scores": {},
+        "quality_grade": "poor",
+        "issues": [
+          "No suggestions generated"
+        ]
+      },
+      "processing_time": 7.17,
+      "timestamp": "2025-09-12T07:50:02.022560"
+    }
+  ],
+  "scenario_results": {
+    "Young Professional Male": [
+      {
+        "image_path": "dataset/web_screenshots/dQJ1HTxgAFCI.jpg",
+        "scenario": "Young Professional Male",
+        "context": {
+          "user_gender": "male",
+          "target_gender": "female",
+          "age_range": "25-30",
+          "app_type": "Hinge"
+        },
+        "ai_result": {
+          "primary_analysis": {
+            "error": "GPT-4o analysis failed: Connection error.",
+            "model_used": "gpt-4o",
+            "success": false
+          },
+          "enhanced_suggestions": [],
+          "processing_time": 4.26,
+          "models_used": [
+            "gpt-4o"
+          ],
+          "final_suggestions": [],
+          "total_suggestions_generated": 0
+        },
+        "suggestions": [],
+        "quality_scores": {
+          "overall_score": 0.0,
+          "detailed_scores": {},
+          "quality_grade": "poor",
+          "issues": [
+            "No suggestions generated"
+          ]
+        },
+        "processing_time": 4.26,
+        "timestamp": "2025-09-12T07:48:53.336912"
+      },
+      {
+        "image_path": "dataset/user_screenshots/IMG_7995 (1).jpeg",
+        "scenario": "Young Professional Male",
+        "context": {
+          "user_gender": "male",
+          "target_gender": "female",
+          "age_range": "25-30",
+          "app_type": "Instagram"
+        },
+        "ai_result": {
+          "primary_analysis": {
+            "error": "GPT-4o analysis failed: Connection error.",
+            "model_used": "gpt-4o",
+            "success": false
+          },
+          "enhanced_suggestions": [],
+          "processing_time": 4.71,
+          "models_used": [
+            "gpt-4o"
+          ],
+          "final_suggestions": [],
+          "total_suggestions_generated": 0
+        },
+        "suggestions": [],
+        "quality_scores": {
+          "overall_score": 0.0,
+          "detailed_scores": {},
+          "quality_grade": "poor",
+          "issues": [
+            "No suggestions generated"
+          ]
+        },
+        "processing_time": 4.71,
+        "timestamp": "2025-09-12T07:48:58.043457"
+      },
+      {
+        "image_path": "dataset/user_screenshots/IMG_7989 (1).jpeg",
+        "scenario": "Young Professional Male",
+        "context": {
+          "user_gender": "male",
+          "target_gender": "female",
+          "age_range": "25-30",
+          "app_type": "Tinder"
+        },
+        "ai_result": {
+          "primary_analysis": {
+            "error": "GPT-4o analysis failed: Connection error.",
+            "model_used": "gpt-4o",
+            "success": false
+          },
+          "enhanced_suggestions": [],
+          "processing_time": 4.63,
+          "models_used": [
+            "gpt-4o"
+          ],
+          "final_suggestions": [],
+          "total_suggestions_generated": 0
+        },
+        "suggestions": [],
+        "quality_scores": {
+          "overall_score": 0.0,
+          "detailed_scores": {},
+          "quality_grade": "poor",
+          "issues": [
+            "No suggestions generated"
+          ]
+        },
+        "processing_time": 4.63,
+        "timestamp": "2025-09-12T07:49:02.678256"
+      }
+    ],
+    "Active Female": [
+      {
+        "image_path": "dataset/user_screenshots/IMG_7998 (1).jpeg",
+        "scenario": "Active Female",
+        "context": {
+          "user_gender": "female",
+          "target_gender": "male",
+          "age_range": "22-28",
+          "app_type": "Hinge"
+        },
+        "ai_result": {
+          "primary_analysis": {
+            "error": "GPT-4o analysis failed: Connection error.",
+            "model_used": "gpt-4o",
+            "success": false
+          },
+          "enhanced_suggestions": [],
+          "processing_time": 4.35,
+          "models_used": [
+            "gpt-4o"
+          ],
+          "final_suggestions": [],
+          "total_suggestions_generated": 0
+        },
+        "suggestions": [],
+        "quality_scores": {
+          "overall_score": 0.0,
+          "detailed_scores": {},
+          "quality_grade": "poor",
+          "issues": [
+            "No suggestions generated"
+          ]
+        },
+        "processing_time": 4.35,
+        "timestamp": "2025-09-12T07:49:07.027148"
+      },
+      {
+        "image_path": "dataset/user_screenshots/IMG_7996 (1).jpeg",
+        "scenario": "Active Female",
+        "context": {
+          "user_gender": "female",
+          "target_gender": "male",
+          "age_range": "22-28",
+          "app_type": "Hinge"
+        },
+        "ai_result": {
+          "primary_analysis": {
+            "error": "GPT-4o analysis failed: Connection error.",
+            "model_used": "gpt-4o",
+            "success": false
+          },
+          "enhanced_suggestions": [],
+          "processing_time": 4.31,
+          "models_used": [
+            "gpt-4o"
+          ],
+          "final_suggestions": [],
+          "total_suggestions_generated": 0
+        },
+        "suggestions": [],
+        "quality_scores": {
+          "overall_score": 0.0,
+          "detailed_scores": {},
+          "quality_grade": "poor",
+          "issues": [
+            "No suggestions generated"
+          ]
+        },
+        "processing_time": 4.31,
+        "timestamp": "2025-09-12T07:49:11.337308"
+      },
+      {
+        "image_path": "dataset/web_screenshots/lbzBkUAFkUSH.jpg",
+        "scenario": "Active Female",
+        "context": {
+          "user_gender": "female",
+          "target_gender": "male",
+          "age_range": "22-28",
+          "app_type": "Bumble"
+        },
+        "ai_result": {
+          "primary_analysis": {
+            "error": "GPT-4o analysis failed: Connection error.",
+            "model_used": "gpt-4o",
+            "success": false
+          },
+          "enhanced_suggestions": [],
+          "processing_time": 4.13,
+          "models_used": [
+            "gpt-4o"
+          ],
+          "final_suggestions": [],
+          "total_suggestions_generated": 0
+        },
+        "suggestions": [],
+        "quality_scores": {
+          "overall_score": 0.0,
+          "detailed_scores": {},
+          "quality_grade": "poor",
+          "issues": [
+            "No suggestions generated"
+          ]
+        },
+        "processing_time": 4.13,
+        "timestamp": "2025-09-12T07:49:15.469340"
+      }
+    ],
+    "Creative Artist": [
+      {
+        "image_path": "dataset/user_screenshots/IMG_8010 (1).jpeg",
+        "scenario": "Creative Artist",
+        "context": {
+          "user_gender": "female",
+          "target_gender": "male",
+          "age_range": "20-35",
+          "app_type": "Tinder"
+        },
+        "ai_result": {
+          "primary_analysis": {
+            "error": "GPT-4o analysis failed: Connection error.",
+            "model_used": "gpt-4o",
+            "success": false
+          },
+          "enhanced_suggestions": [],
+          "processing_time": 4.76,
+          "models_used": [
+            "gpt-4o"
+          ],
+          "final_suggestions": [],
+          "total_suggestions_generated": 0
+        },
+        "suggestions": [],
+        "quality_scores": {
+          "overall_score": 0.0,
+          "detailed_scores": {},
+          "quality_grade": "poor",
+          "issues": [
+            "No suggestions generated"
+          ]
+        },
+        "processing_time": 4.76,
+        "timestamp": "2025-09-12T07:49:20.228496"
+      },
+      {
+        "image_path": "dataset/user_screenshots/IMG_7999 (1).jpeg",
+        "scenario": "Creative Artist",
+        "context": {
+          "user_gender": "male",
+          "target_gender": "female",
+          "age_range": "20-35",
+          "app_type": "Instagram"
+        },
+        "ai_result": {
+          "primary_analysis": {
+            "error": "GPT-4o analysis failed: Connection error.",
+            "model_used": "gpt-4o",
+            "success": false
+          },
+          "enhanced_suggestions": [],
+          "processing_time": 4.69,
+          "models_used": [
+            "gpt-4o"
+          ],
+          "final_suggestions": [],
+          "total_suggestions_generated": 0
+        },
+        "suggestions": [],
+        "quality_scores": {
+          "overall_score": 0.0,
+          "detailed_scores": {},
+          "quality_grade": "poor",
+          "issues": [
+            "No suggestions generated"
+          ]
+        },
+        "processing_time": 4.69,
+        "timestamp": "2025-09-12T07:49:24.923332"
+      },
+      {
+        "image_path": "dataset/web_screenshots/4qhnYEZhWrJQ.jpg",
+        "scenario": "Creative Artist",
+        "context": {
+          "user_gender": "female",
+          "target_gender": "male",
+          "age_range": "20-35",
+          "app_type": "Hinge"
+        },
+        "ai_result": {
+          "primary_analysis": {
+            "error": "GPT-4o analysis failed: Connection error.",
+            "model_used": "gpt-4o",
+            "success": false
+          },
+          "enhanced_suggestions": [],
+          "processing_time": 3.83,
+          "models_used": [
+            "gpt-4o"
+          ],
+          "final_suggestions": [],
+          "total_suggestions_generated": 0
+        },
+        "suggestions": [],
+        "quality_scores": {
+          "overall_score": 0.0,
+          "detailed_scores": {},
+          "quality_grade": "poor",
+          "issues": [
+            "No suggestions generated"
+          ]
+        },
+        "processing_time": 3.83,
+        "timestamp": "2025-09-12T07:49:28.752461"
+      }
+    ],
+    "Travel Enthusiast": [
+      {
+        "image_path": "dataset/user_screenshots/IMG_7983 (1).jpeg",
+        "scenario": "Travel Enthusiast",
+        "context": {
+          "user_gender": "female",
+          "target_gender": "female",
+          "age_range": "25-40",
+          "app_type": "Bumble"
+        },
+        "ai_result": {
+          "primary_analysis": {
+            "error": "GPT-4o analysis failed: Connection error.",
+            "model_used": "gpt-4o",
+            "success": false
+          },
+          "enhanced_suggestions": [],
+          "processing_time": 5.47,
+          "models_used": [
+            "gpt-4o"
+          ],
+          "final_suggestions": [],
+          "total_suggestions_generated": 0
+        },
+        "suggestions": [],
+        "quality_scores": {
+          "overall_score": 0.0,
+          "detailed_scores": {},
+          "quality_grade": "poor",
+          "issues": [
+            "No suggestions generated"
+          ]
+        },
+        "processing_time": 5.47,
+        "timestamp": "2025-09-12T07:49:34.224338"
+      },
+      {
+        "image_path": "dataset/user_screenshots/IMG_7987 (1).jpeg",
+        "scenario": "Travel Enthusiast",
+        "context": {
+          "user_gender": "female",
+          "target_gender": "male",
+          "age_range": "25-40",
+          "app_type": "Instagram"
+        },
+        "ai_result": {
+          "primary_analysis": {
+            "error": "GPT-4o analysis failed: Connection error.",
+            "model_used": "gpt-4o",
+            "success": false
+          },
+          "enhanced_suggestions": [],
+          "processing_time": 4.27,
+          "models_used": [
+            "gpt-4o"
+          ],
+          "final_suggestions": [],
+          "total_suggestions_generated": 0
+        },
+        "suggestions": [],
+        "quality_scores": {
+          "overall_score": 0.0,
+          "detailed_scores": {},
+          "quality_grade": "poor",
+          "issues": [
+            "No suggestions generated"
+          ]
+        },
+        "processing_time": 4.27,
+        "timestamp": "2025-09-12T07:49:38.495970"
+      },
+      {
+        "image_path": "dataset/user_screenshots/IMG_8002 (1).jpeg",
+        "scenario": "Travel Enthusiast",
+        "context": {
+          "user_gender": "female",
+          "target_gender": "male",
+          "age_range": "25-40",
+          "app_type": "Instagram"
+        },
+        "ai_result": {
+          "primary_analysis": {
+            "error": "GPT-4o analysis failed: Connection error.",
+            "model_used": "gpt-4o",
+            "success": false
+          },
+          "enhanced_suggestions": [],
+          "processing_time": 2.24,
+          "models_used": [
+            "gpt-4o"
+          ],
+          "final_suggestions": [],
+          "total_suggestions_generated": 0
+        },
+        "suggestions": [],
+        "quality_scores": {
+          "overall_score": 0.0,
+          "detailed_scores": {},
+          "quality_grade": "poor",
+          "issues": [
+            "No suggestions generated"
+          ]
+        },
+        "processing_time": 2.24,
+        "timestamp": "2025-09-12T07:49:40.736551"
+      }
+    ],
+    "Pet Lover": [
+      {
+        "image_path": "dataset/user_screenshots/IMG_7986 (1).jpeg",
+        "scenario": "Pet Lover",
+        "context": {
+          "user_gender": "female",
+          "target_gender": "female",
+          "age_range": "20-45",
+          "app_type": "Tinder"
+        },
+        "ai_result": {
+          "primary_analysis": {
+            "error": "GPT-4o analysis failed: Connection error.",
+            "model_used": "gpt-4o",
+            "success": false
+          },
+          "enhanced_suggestions": [],
+          "processing_time": 2.32,
+          "models_used": [
+            "gpt-4o"
+          ],
+          "final_suggestions": [],
+          "total_suggestions_generated": 0
+        },
+        "suggestions": [],
+        "quality_scores": {
+          "overall_score": 0.0,
+          "detailed_scores": {},
+          "quality_grade": "poor",
+          "issues": [
+            "No suggestions generated"
+          ]
+        },
+        "processing_time": 2.32,
+        "timestamp": "2025-09-12T07:49:43.058764"
+      },
+      {
+        "image_path": "dataset/web_screenshots/5bcAlH8lqJGT.jpg",
+        "scenario": "Pet Lover",
+        "context": {
+          "user_gender": "female",
+          "target_gender": "female",
+          "age_range": "20-45",
+          "app_type": "Bumble"
+        },
+        "ai_result": {
+          "primary_analysis": {
+            "error": "GPT-4o analysis failed: Connection error.",
+            "model_used": "gpt-4o",
+            "success": false
+          },
+          "enhanced_suggestions": [],
+          "processing_time": 2.07,
+          "models_used": [
+            "gpt-4o"
+          ],
+          "final_suggestions": [],
+          "total_suggestions_generated": 0
+        },
+        "suggestions": [],
+        "quality_scores": {
+          "overall_score": 0.0,
+          "detailed_scores": {},
+          "quality_grade": "poor",
+          "issues": [
+            "No suggestions generated"
+          ]
+        },
+        "processing_time": 2.07,
+        "timestamp": "2025-09-12T07:49:45.131614"
+      },
+      {
+        "image_path": "dataset/user_screenshots/IMG_7990 (1).jpeg",
+        "scenario": "Pet Lover",
+        "context": {
+          "user_gender": "female",
+          "target_gender": "female",
+          "age_range": "20-45",
+          "app_type": "Tinder"
+        },
+        "ai_result": {
+          "primary_analysis": {
+            "error": "GPT-4o analysis failed: Connection error.",
+            "model_used": "gpt-4o",
+            "success": false
+          },
+          "enhanced_suggestions": [],
+          "processing_time": 2.33,
+          "models_used": [
+            "gpt-4o"
+          ],
+          "final_suggestions": [],
+          "total_suggestions_generated": 0
+        },
+        "suggestions": [],
+        "quality_scores": {
+          "overall_score": 0.0,
+          "detailed_scores": {},
+          "quality_grade": "poor",
+          "issues": [
+            "No suggestions generated"
+          ]
+        },
+        "processing_time": 2.33,
+        "timestamp": "2025-09-12T07:49:47.465974"
+      }
+    ],
+    "Foodie": [
+      {
+        "image_path": "dataset/user_screenshots/IMG_8009 (1).jpeg",
+        "scenario": "Foodie",
+        "context": {
+          "user_gender": "female",
+          "target_gender": "female",
+          "age_range": "22-40",
+          "app_type": "Hinge"
+        },
+        "ai_result": {
+          "primary_analysis": {
+            "error": "GPT-4o analysis failed: Connection error.",
+            "model_used": "gpt-4o",
+            "success": false
+          },
+          "enhanced_suggestions": [],
+          "processing_time": 2.32,
+          "models_used": [
+            "gpt-4o"
+          ],
+          "final_suggestions": [],
+          "total_suggestions_generated": 0
+        },
+        "suggestions": [],
+        "quality_scores": {
+          "overall_score": 0.0,
+          "detailed_scores": {},
+          "quality_grade": "poor",
+          "issues": [
+            "No suggestions generated"
+          ]
+        },
+        "processing_time": 2.32,
+        "timestamp": "2025-09-12T07:49:49.783951"
+      },
+      {
+        "image_path": "dataset/user_screenshots/IMG_7992 (1).jpeg",
+        "scenario": "Foodie",
+        "context": {
+          "user_gender": "female",
+          "target_gender": "male",
+          "age_range": "22-40",
+          "app_type": "Instagram"
+        },
+        "ai_result": {
+          "primary_analysis": {
+            "error": "GPT-4o analysis failed: Connection error.",
+            "model_used": "gpt-4o",
+            "success": false
+          },
+          "enhanced_suggestions": [],
+          "processing_time": 5.07,
+          "models_used": [
+            "gpt-4o"
+          ],
+          "final_suggestions": [],
+          "total_suggestions_generated": 0
+        },
+        "suggestions": [],
+        "quality_scores": {
+          "overall_score": 0.0,
+          "detailed_scores": {},
+          "quality_grade": "poor",
+          "issues": [
+            "No suggestions generated"
+          ]
+        },
+        "processing_time": 5.07,
+        "timestamp": "2025-09-12T07:49:54.855647"
+      },
+      {
+        "image_path": "dataset/user_screenshots/IMG_7984 (1).jpeg",
+        "scenario": "Foodie",
+        "context": {
+          "user_gender": "male",
+          "target_gender": "female",
+          "age_range": "22-40",
+          "app_type": "Hinge"
+        },
+        "ai_result": {
+          "primary_analysis": {
+            "error": "GPT-4o analysis failed: Connection error.",
+            "model_used": "gpt-4o",
+            "success": false
+          },
+          "enhanced_suggestions": [],
+          "processing_time": 7.17,
+          "models_used": [
+            "gpt-4o"
+          ],
+          "final_suggestions": [],
+          "total_suggestions_generated": 0
+        },
+        "suggestions": [],
+        "quality_scores": {
+          "overall_score": 0.0,
+          "detailed_scores": {},
+          "quality_grade": "poor",
+          "issues": [
+            "No suggestions generated"
+          ]
+        },
+        "processing_time": 7.17,
+        "timestamp": "2025-09-12T07:50:02.022560"
+      }
+    ]
+  },
+  "comprehensive_report": {
+    "overall_statistics": {
+      "total_tests": 18,
+      "successful_tests": 18,
+      "success_rate": 1.0,
+      "average_score": 0.0,
+      "median_score": 0.0,
+      "score_std_dev": 0.0,
+      "min_score": 0.0,
+      "max_score": 0.0
+    },
+    "score_distribution": {
+      "excellent (0.8+)": 0,
+      "good (0.6-0.8)": 0,
+      "acceptable (0.4-0.6)": 0,
+      "poor (<0.4)": 18
+    },
+    "metric_analysis": {
+      "relevance": {
+        "average": 0,
+        "min": 0,
+        "max": 0,
+        "std_dev": 0.0
+      },
+      "creativity": {
+        "average": 0,
+        "min": 0,
+        "max": 0,
+        "std_dev": 0.0
+      },
+      "appropriateness": {
+        "average": 0,
+        "min": 0,
+        "max": 0,
+        "std_dev": 0.0
+      },
+      "engagement": {
+        "average": 0,
+        "min": 0,
+        "max": 0,
+        "std_dev": 0.0
+      },
+      "specificity": {
+        "average": 0,
+        "min": 0,
+        "max": 0,
+        "std_dev": 0.0
+      },
+      "gender_appropriateness": {
+        "average": 0,
+        "min": 0,
+        "max": 0,
+        "std_dev": 0.0
+      },
+      "context_awareness": {
+        "average": 0,
+        "min": 0,
+        "max": 0,
+        "std_dev": 0.0
+      }
+    },
+    "scenario_performance": {
+      "Young Professional Male": {
+        "average_score": 0.0,
+        "test_count": 3,
+        "success_rate": 1.0,
+        "best_score": 0.0,
+        "worst_score": 0.0
+      },
+      "Active Female": {
+        "average_score": 0.0,
+        "test_count": 3,
+        "success_rate": 1.0,
+        "best_score": 0.0,
+        "worst_score": 0.0
+      },
+      "Creative Artist": {
+        "average_score": 0.0,
+        "test_count": 3,
+        "success_rate": 1.0,
+        "best_score": 0.0,
+        "worst_score": 0.0
+      },
+      "Travel Enthusiast": {
+        "average_score": 0.0,
+        "test_count": 3,
+        "success_rate": 1.0,
+        "best_score": 0.0,
+        "worst_score": 0.0
+      },
+      "Pet Lover": {
+        "average_score": 0.0,
+        "test_count": 3,
+        "success_rate": 1.0,
+        "best_score": 0.0,
+        "worst_score": 0.0
+      },
+      "Foodie": {
+        "average_score": 0.0,
+        "test_count": 3,
+        "success_rate": 1.0,
+        "best_score": 0.0,
+        "worst_score": 0.0
+      }
+    },
+    "performance_analysis": {
+      "average_processing_time": 4.05,
+      "total_processing_time": 72.93,
+      "fastest_test": 2.07,
+      "slowest_test": 7.17
+    },
+    "common_issues": {
+      "No suggestions generated": 18
+    },
+    "recommendations": [
+      "\ud83d\udea8 CRITICAL: Overall performance below acceptable threshold. Major prompt engineering overhaul needed.",
+      "\ud83c\udfaf Improve visual analysis to better identify profile elements for relevant suggestions.",
+      "\ud83d\udca1 Enhance creativity by avoiding generic phrases and generating more original content.",
+      "\ud83d\udee1\ufe0f Strengthen content filters to ensure all suggestions are appropriate for dating context.",
+      "\ud83d\udcac Include more questions and conversation starters to improve engagement potential.",
+      "\ud83d\udc65 Better implement gender-specific communication strategies from research.",
+      "\ud83d\udcca Focus improvement efforts on 'Young Professional Male' scenario - consistently underperforming.",
+      "\ud83d\udcca Focus improvement efforts on 'Active Female' scenario - consistently underperforming."
+    ],
+    "test_timestamp": "2025-09-12T07:50:02.023592"
+  },
+  "test_configuration": {
+    "max_tests_per_scenario": 3,
+    "total_images": 41,
+    "total_scenarios": 6,
+    "total_tests": 18
+  }
+}

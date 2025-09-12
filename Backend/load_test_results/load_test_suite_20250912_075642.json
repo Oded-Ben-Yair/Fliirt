@@ -1,0 +1,20 @@
+{
+  "suite_results": {
+    "light_load": {
+      "error": "'NoneType' object has no attribute 'lower'"
+    },
+    "moderate_load": {
+      "error": "'NoneType' object has no attribute 'lower'"
+    },
+    "heavy_load": {
+      "error": "'NoneType' object has no attribute 'lower'"
+    },
+    "stress_test": {
+      "error": "'NoneType' object has no attribute 'lower'"
+    }
+  },
+  "comprehensive_report": {
+    "error": "No successful load tests to analyze"
+  },
+  "test_timestamp": "2025-09-12T07:56:42.013337"
+}

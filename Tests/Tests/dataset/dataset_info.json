@@ -1,0 +1,88 @@
+{
+  "total_images": 0,
+  "categories": {
+    "male_profiles": 0,
+    "female_profiles": 0,
+    "group_photos": 0,
+    "activity_photos": 0,
+    "conversation_screenshots": 0,
+    "bio_heavy": 0,
+    "photo_heavy": 0
+  },
+  "test_scenarios": 6,
+  "created_at": "2025-09-12T07:43:01.924847",
+  "scenarios": [
+    {
+      "name": "Young Professional Male",
+      "user_gender": "male",
+      "target_gender": "female",
+      "age_range": "25-30",
+      "context": "Professional photos, office/business setting",
+      "expected_themes": [
+        "career",
+        "ambition",
+        "lifestyle"
+      ]
+    },
+    {
+      "name": "Active Female",
+      "user_gender": "female",
+      "target_gender": "male",
+      "age_range": "22-28",
+      "context": "Outdoor activities, sports, fitness",
+      "expected_themes": [
+        "fitness",
+        "adventure",
+        "outdoors"
+      ]
+    },
+    {
+      "name": "Creative Artist",
+      "user_gender": "any",
+      "target_gender": "any",
+      "age_range": "20-35",
+      "context": "Art, music, creative pursuits",
+      "expected_themes": [
+        "creativity",
+        "art",
+        "culture"
+      ]
+    },
+    {
+      "name": "Travel Enthusiast",
+      "user_gender": "any",
+      "target_gender": "any",
+      "age_range": "25-40",
+      "context": "Travel photos, different locations",
+      "expected_themes": [
+        "travel",
+        "adventure",
+        "culture"
+      ]
+    },
+    {
+      "name": "Pet Lover",
+      "user_gender": "any",
+      "target_gender": "any",
+      "age_range": "20-45",
+      "context": "Photos with pets, animals",
+      "expected_themes": [
+        "pets",
+        "animals",
+        "care"
+      ]
+    },
+    {
+      "name": "Foodie",
+      "user_gender": "any",
+      "target_gender": "any",
+      "age_range": "22-40",
+      "context": "Food photos, restaurants, cooking",
+      "expected_themes": [
+        "food",
+        "cooking",
+        "restaurants"
+      ]
+    }
+  ]
+}
