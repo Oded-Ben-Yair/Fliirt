@@ -109,3 +109,4 @@ secrets.json
 # Logs
 *.log
 
+Backend/flirrt-ai-service/venv/
