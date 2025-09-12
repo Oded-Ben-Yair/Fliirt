@@ -1,10 +1,13 @@
+//
+//  ContentView.swift
+//  FlirrtApp
+//
+//  Created by Manus AI on 9/12/25.
+//
+
 import SwiftUI
-import PhotosUI
 
 struct ContentView: View {
-    @EnvironmentObject var photoPickerManager: PhotoPickerManager
-    @State private var isMonitoringRequests = false
-    
     var body: some View {
         VStack(spacing: 30) {
             // Flirrt.ai Logo with heart-shaped 'rr'
@@ -74,12 +77,6 @@ struct ContentView: View {
                             .foregroundColor(.green)
                         Text("Never leave your dating app")
                     }
-                    
-                    HStack {
-                        Image(systemName: isMonitoringRequests ? "checkmark.circle.fill" : "circle")
-                            .foregroundColor(isMonitoringRequests ? .green : .gray)
-                        Text("App Groups communication active")
-                    }
                 }
                 .font(.subheadline)
                 .padding(.horizontal)
@@ -87,21 +84,8 @@ struct ContentView: View {
             
             Spacer()
             
-            // Setup instructions and status
+            // Setup instructions
             VStack(spacing: 15) {
-                if photoPickerManager.isProcessingPhoto {
-                    HStack {
-                        ProgressView()
-                            .scaleEffect(0.8)
-                        Text("Processing photo...")
-                            .font(.subheadline)
-                            .foregroundColor(.secondary)
-                    }
-                    .padding()
-                    .background(Color(.systemGray6))
-                    .cornerRadius(12)
-                }
-                
                 Button(action: {
                     // Open Settings app to keyboard settings
                     if let settingsUrl = URL(string: UIApplication.openSettingsURLString) {
@@ -128,21 +112,10 @@ struct ContentView: View {
             .padding(.horizontal)
             .padding(.bottom, 30)
         }
-        .onAppear {
-            isMonitoringRequests = true
-            print("✅ ContentView monitoring active")
-        }
-        .sheet(isPresented: $photoPickerManager.isShowingPhotoPicker) {
-            PhotoPickerView { result in
-                photoPickerManager.handlePhotoSelection(result)
-                photoPickerManager.isShowingPhotoPicker = false
-            }
-        }
     }
 }
 
 #Preview {
     ContentView()
-        .environmentObject(PhotoPickerManager())
 }
 
