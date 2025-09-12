@@ -13,8 +13,8 @@
 
 /* Begin PBXFileReference section */
 		A1B2C3D4E5F678901234567A /* FlirrtApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlirrtApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1B2C3D4E5F678901234567D /* FlirrtApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlirrtApp.swift; sourceTree = "<group>"; };
-		A1B2C3D4E5F678901234567E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F678901234567D /* FlirrtApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlirrtApp/FlirrtApp.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F678901234567E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlirrtApp/ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
