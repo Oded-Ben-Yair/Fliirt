@@ -1,4 +1,13 @@
+//
+//  AppGroupCommunicator.swift
+//  Flirrt.ai
+//
+//  Handles communication between the main app and keyboard extension
+//  using App Groups for secure data sharing
+//
+
 import Foundation
+import UIKit
 
 /// Handles communication between the main app and keyboard extension via App Groups
 class AppGroupCommunicator {

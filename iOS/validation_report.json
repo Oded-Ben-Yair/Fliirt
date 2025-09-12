@@ -1,0 +1,11 @@
+{
+  "validation_timestamp": "2025-09-12",
+  "project_path": "/home/ubuntu/Fliirt/iOS/FlirrtApp.xcodeproj",
+  "tests": {
+    "pbxproj_syntax": true,
+    "file_structure": true,
+    "swift_syntax": true,
+    "plist_files": true
+  },
+  "overall_result": "PASS"
+}
