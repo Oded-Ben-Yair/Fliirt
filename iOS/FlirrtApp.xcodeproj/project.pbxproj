@@ -7,74 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B82BFE12C6D4CAA83A75DF5 /* FlirrtApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060FA8B1E4814B8FB97C1B0E /* FlirrtApp.swift */; };
-		B5069373DC084207A95C8C7C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193262D178D54F4B83C34441 /* ContentView.swift */; };
-		7C49D5E9997D4288B88B9928 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9F0EC97F24499ABC732B51 /* SettingsView.swift */; };
-		FB22ACB6170E41958DCC8F69 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D513207DF6684914A24B9FE3 /* KeyboardViewController.swift */; };
-		AA4427CC05E0479EA12E92B3 /* AppGroupCommunicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE5D60902AD408FBB9A6E42 /* AppGroupCommunicator.swift */; };
-		74252D2132D347E49761FCF4 /* AppGroupCommunicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE5D60902AD408FBB9A6E42 /* AppGroupCommunicator.swift */; };
-		999E5252DF7343EAB9A9C156 /* PhotoPickerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7DE24310C64AAD9C96E4E9 /* PhotoPickerManager.swift */; };
-		89424E7D832E44F389BB2A82 /* PhotoPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11889CD9B494CBBA69830D7 /* PhotoPickerView.swift */; };
-		4BB552C83AD44E94993E52D6 /* AIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A17DF8E5A244C284535DD7 /* AIService.swift */; };
-		09139F9AA15D4479A4508DD7 /* AppGroupsDebugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5056EE530119499D81DA46A4 /* AppGroupsDebugView.swift */; };
-		E7C8D73FEB3E4AD1B7869764 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 924811A41E564D94B352C55C /* Assets.xcassets */; };
-		976E4D61C9D4460E98BC1BFB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CD4F48F1411430DBC2AFF03 /* Preview Assets.xcassets */; };
-		2124BDFBBFB74B6C9DA6C8BD /* FlirrtKeyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7DD2A851B491490C9943596A /* FlirrtKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1A2B3C4D5E6F7890ABCD1238 /* FlirrtApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B3C4D5E6F7890ABCD1235 /* FlirrtApp.swift */; };
+		1A2B3C4D5E6F7890ABCD1239 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B3C4D5E6F7890ABCD1236 /* ContentView.swift */; };
+		1A2B3C4D5E6F7890ABCD123A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A2B3C4D5E6F7890ABCD1237 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		CA6785F65A0742AF8A99EC78 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D96A83D8BB124AB4BBC358CB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7117A1B019654FA39DC1A4FD;
-			remoteInfo = FlirrtKeyboard;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		6415EC43B42F46BBAFC68C1E /* Embed App Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				2124BDFBBFB74B6C9DA6C8BD /* FlirrtKeyboard.appex in Embed App Extensions */,
-			);
-			name = "Embed App Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		D271044864024F8D8192A155 /* FlirrtApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlirrtApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7DD2A851B491490C9943596A /* FlirrtKeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = FlirrtKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		060FA8B1E4814B8FB97C1B0E /* FlirrtApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlirrtApp.swift; sourceTree = "<group>"; };
-		193262D178D54F4B83C34441 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		8A9F0EC97F24499ABC732B51 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		D513207DF6684914A24B9FE3 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
-		7DE5D60902AD408FBB9A6E42 /* AppGroupCommunicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppGroupCommunicator.swift; sourceTree = "<group>"; };
-		FA7DE24310C64AAD9C96E4E9 /* PhotoPickerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickerManager.swift; sourceTree = "<group>"; };
-		B11889CD9B494CBBA69830D7 /* PhotoPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickerView.swift; sourceTree = "<group>"; };
-		56A17DF8E5A244C284535DD7 /* AIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIService.swift; sourceTree = "<group>"; };
-		5056EE530119499D81DA46A4 /* AppGroupsDebugView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppGroupsDebugView.swift; sourceTree = "<group>"; };
-		C1A28B05A4734DB09012338A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		44F75B098D384CA3B2315E9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F81BB6D98B3F48F9B47197B0 /* FlirrtApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FlirrtApp.entitlements; sourceTree = "<group>"; };
-		A6D61724416E414DB9C102B6 /* FlirrtKeyboard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FlirrtKeyboard.entitlements; sourceTree = "<group>"; };
-		924811A41E564D94B352C55C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9CD4F48F1411430DBC2AFF03 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1A2B3C4D5E6F7890ABCD1232 /* FlirrtApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlirrtApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A2B3C4D5E6F7890ABCD1235 /* FlirrtApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlirrtApp.swift; sourceTree = "<group>"; };
+		1A2B3C4D5E6F7890ABCD1236 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1A2B3C4D5E6F7890ABCD1237 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		988F8C1FC50B441D88596678 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EECD36CCA6CA4A428AE2AC59 /* Frameworks */ = {
+		1A2B3C4D5E6F7890ABCD123D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -84,135 +30,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		975011BD8415491FA519C08A = {
+		1A2B3C4D5E6F7890ABCD1233 = {
 			isa = PBXGroup;
 			children = (
-				003A658FBAE646E98966F779 /* FlirrtApp */,
-				9BEB1EDA6B344F9D90059091 /* FlirrtKeyboard */,
-				B75857023BFD46FDAE1B9FFE /* Shared */,
-				D94BEEB04380462887675B60 /* Products */,
+				1A2B3C4D5E6F7890ABCD1235 /* FlirrtApp.swift */,
+				1A2B3C4D5E6F7890ABCD1236 /* ContentView.swift */,
+				1A2B3C4D5E6F7890ABCD1237 /* Assets.xcassets */,
+				1A2B3C4D5E6F7890ABCD1234 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D94BEEB04380462887675B60 /* Products */ = {
+		1A2B3C4D5E6F7890ABCD1234 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D271044864024F8D8192A155 /* FlirrtApp.app */,
-				7DD2A851B491490C9943596A /* FlirrtKeyboard.appex */,
+				1A2B3C4D5E6F7890ABCD1232 /* FlirrtApp.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		003A658FBAE646E98966F779 /* FlirrtApp */ = {
-			isa = PBXGroup;
-			children = (
-				060FA8B1E4814B8FB97C1B0E /* FlirrtApp.swift */,
-				193262D178D54F4B83C34441 /* ContentView.swift */,
-				8A9F0EC97F24499ABC732B51 /* SettingsView.swift */,
-				F81BB6D98B3F48F9B47197B0 /* FlirrtApp.entitlements */,
-				C1A28B05A4734DB09012338A /* Info.plist */,
-				25F8C407FACA475DB44DCB4C /* Assets */,
-			);
-			path = FlirrtApp;
-			sourceTree = "<group>";
-		};
-		9BEB1EDA6B344F9D90059091 /* FlirrtKeyboard */ = {
-			isa = PBXGroup;
-			children = (
-				D513207DF6684914A24B9FE3 /* KeyboardViewController.swift */,
-				A6D61724416E414DB9C102B6 /* FlirrtKeyboard.entitlements */,
-				44F75B098D384CA3B2315E9C /* Info.plist */,
-			);
-			path = FlirrtKeyboard;
-			sourceTree = "<group>";
-		};
-		B75857023BFD46FDAE1B9FFE /* Shared */ = {
-			isa = PBXGroup;
-			children = (
-				7DE5D60902AD408FBB9A6E42 /* AppGroupCommunicator.swift */,
-				FA7DE24310C64AAD9C96E4E9 /* PhotoPickerManager.swift */,
-				B11889CD9B494CBBA69830D7 /* PhotoPickerView.swift */,
-				56A17DF8E5A244C284535DD7 /* AIService.swift */,
-				5056EE530119499D81DA46A4 /* AppGroupsDebugView.swift */,
-			);
-			path = Shared;
-			sourceTree = "<group>";
-		};
-		25F8C407FACA475DB44DCB4C /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				924811A41E564D94B352C55C /* Assets.xcassets */,
-				4694C4FF69604CDB951A6373 /* Preview Content */,
-			);
-			name = Assets;
-			sourceTree = "<group>";
-		};
-		4694C4FF69604CDB951A6373 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				9CD4F48F1411430DBC2AFF03 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EA522C60EB3842B7AD23D4C2 /* FlirrtApp */ = {
+		1A2B3C4D5E6F7890ABCD1231 /* FlirrtApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 331FA372D0BD440F92CE6742 /* Build configuration list for PBXNativeTarget "FlirrtApp" */;
+			buildConfigurationList = 1A2B3C4D5E6F7890ABCD1243 /* Build configuration list for PBXNativeTarget "FlirrtApp" */;
 			buildPhases = (
-				A114C01701464B60BD47E3BF /* Sources */,
-				1F29D8EA0F52456186CF6CD6 /* Frameworks */,
-				D771B47C34F0405C88133BE4 /* Resources */,
-				6415EC43B42F46BBAFC68C1E /* Embed App Extensions */,
+				1A2B3C4D5E6F7890ABCD123B /* Sources */,
+				1A2B3C4D5E6F7890ABCD123D /* Frameworks */,
+				1A2B3C4D5E6F7890ABCD123C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9BBAB117C9FB4EDB89F1E95E /* PBXTargetDependency */,
 			);
 			name = FlirrtApp;
 			productName = FlirrtApp;
-			productReference = D271044864024F8D8192A155 /* FlirrtApp.app */;
+			productReference = 1A2B3C4D5E6F7890ABCD1232 /* FlirrtApp.app */;
 			productType = "com.apple.product-type.application";
-		};
-		7117A1B019654FA39DC1A4FD /* FlirrtKeyboard */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 793DE55EE63E4589B224EFAD /* Build configuration list for PBXNativeTarget "FlirrtKeyboard" */;
-			buildPhases = (
-				B270AFC3ACB94614AF1970C3 /* Sources */,
-				768021372ACB4C31804383B4 /* Frameworks */,
-				BA2D471D5F6E4E028E33AF9A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = FlirrtKeyboard;
-			productName = FlirrtKeyboard;
-			productReference = 7DD2A851B491490C9943596A /* FlirrtKeyboard.appex */;
-			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D96A83D8BB124AB4BBC358CB /* Project object */ = {
+		1A2B3C4D5E6F7890ABCD1230 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
-					EA522C60EB3842B7AD23D4C2 = {
-						CreatedOnToolsVersion = 16.0;
-					};
-					7117A1B019654FA39DC1A4FD = {
+					1A2B3C4D5E6F7890ABCD1231 = {
 						CreatedOnToolsVersion = 16.0;
 					};
 				};
 			};
-			buildConfigurationList = C9931E2A116C4DE4B82D6085 /* Build configuration list for PBXProject "FlirrtApp" */;
+			buildConfigurationList = 1A2B3C4D5E6F7890ABCD1242 /* Build configuration list for PBXProject "FlirrtApp" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -220,77 +91,44 @@
 				en,
 				Base,
 			);
-			mainGroup = 975011BD8415491FA519C08A;
-			productRefGroup = D94BEEB04380462887675B60 /* Products */;
+			mainGroup = 1A2B3C4D5E6F7890ABCD1233;
+			productRefGroup = 1A2B3C4D5E6F7890ABCD1234 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EA522C60EB3842B7AD23D4C2 /* FlirrtApp */,
-				7117A1B019654FA39DC1A4FD /* FlirrtKeyboard */,
+				1A2B3C4D5E6F7890ABCD1231 /* FlirrtApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D771B47C34F0405C88133BE4 /* Resources */ = {
+		1A2B3C4D5E6F7890ABCD123C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				976E4D61C9D4460E98BC1BFB /* Preview Assets.xcassets in Resources */,
-				E7C8D73FEB3E4AD1B7869764 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BA2D471D5F6E4E028E33AF9A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				1A2B3C4D5E6F7890ABCD123A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A114C01701464B60BD47E3BF /* Sources */ = {
+		1A2B3C4D5E6F7890ABCD123B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5069373DC084207A95C8C7C /* ContentView.swift in Sources */,
-				7C49D5E9997D4288B88B9928 /* SettingsView.swift in Sources */,
-				1B82BFE12C6D4CAA83A75DF5 /* FlirrtApp.swift in Sources */,
-				AA4427CC05E0479EA12E92B3 /* AppGroupCommunicator.swift in Sources */,
-				999E5252DF7343EAB9A9C156 /* PhotoPickerManager.swift in Sources */,
-				89424E7D832E44F389BB2A82 /* PhotoPickerView.swift in Sources */,
-				4BB552C83AD44E94993E52D6 /* AIService.swift in Sources */,
-				09139F9AA15D4479A4508DD7 /* AppGroupsDebugView.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B270AFC3ACB94614AF1970C3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FB22ACB6170E41958DCC8F69 /* KeyboardViewController.swift in Sources */,
-				74252D2132D347E49761FCF4 /* AppGroupCommunicator.swift in Sources */,
+				1A2B3C4D5E6F7890ABCD1239 /* ContentView.swift in Sources */,
+				1A2B3C4D5E6F7890ABCD1238 /* FlirrtApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		9BBAB117C9FB4EDB89F1E95E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7117A1B019654FA39DC1A4FD /* FlirrtKeyboard */;
-			targetProxy = CA6785F65A0742AF8A99EC78 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		D1EDD7D7CD504EA0B5DB6013 /* Debug */ = {
+		1A2B3C4D5E6F7890ABCD123E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -323,7 +161,6 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -339,7 +176,6 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
-				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -349,11 +185,10 @@
 			};
 			name = Debug;
 		};
-		735580D878ED49418305E63E /* Release */ = {
+		1A2B3C4D5E6F7890ABCD123F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -386,7 +221,6 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -396,7 +230,6 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
-				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -405,25 +238,21 @@
 			};
 			name = Release;
 		};
-		B065AFED882641538B2CA8C2 /* Debug */ = {
+		1A2B3C4D5E6F7890ABCD1240 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = FlirrtApp/FlirrtApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = ""FlirrtApp/Preview Content"";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FlirrtApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -437,25 +266,21 @@
 			};
 			name = Debug;
 		};
-		B310F915B40941ABBACF047E /* Release */ = {
+		1A2B3C4D5E6F7890ABCD1241 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = FlirrtApp/FlirrtApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = ""FlirrtApp/Preview Content"";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FlirrtApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -463,60 +288,6 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ai.flirrt.FlirrtApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 6.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		E655391707C14018A02F8559 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = FlirrtKeyboard/FlirrtKeyboard.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FlirrtKeyboard/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Flirrt;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ai.flirrt.FlirrtApp.FlirrtKeyboard;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 6.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		32901E7F47834C4982B1E6FC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = FlirrtKeyboard/FlirrtKeyboard.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FlirrtKeyboard/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Flirrt;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ai.flirrt.FlirrtApp.FlirrtKeyboard;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -526,34 +297,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C9931E2A116C4DE4B82D6085 /* Build configuration list for PBXProject "FlirrtApp" */ = {
+		1A2B3C4D5E6F7890ABCD1242 /* Build configuration list for PBXProject "FlirrtApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D1EDD7D7CD504EA0B5DB6013 /* Debug */,
-				735580D878ED49418305E63E /* Release */,
+				1A2B3C4D5E6F7890ABCD123E /* Debug */,
+				1A2B3C4D5E6F7890ABCD123F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		331FA372D0BD440F92CE6742 /* Build configuration list for PBXNativeTarget "FlirrtApp" */ = {
+		1A2B3C4D5E6F7890ABCD1243 /* Build configuration list for PBXNativeTarget "FlirrtApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B065AFED882641538B2CA8C2 /* Debug */,
-				B310F915B40941ABBACF047E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		793DE55EE63E4589B224EFAD /* Build configuration list for PBXNativeTarget "FlirrtKeyboard" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E655391707C14018A02F8559 /* Debug */,
-				32901E7F47834C4982B1E6FC /* Release */,
+				1A2B3C4D5E6F7890ABCD1240 /* Debug */,
+				1A2B3C4D5E6F7890ABCD1241 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D96A83D8BB124AB4BBC358CB /* Project object */;
+	rootObject = 1A2B3C4D5E6F7890ABCD1230 /* Project object */;
 }
