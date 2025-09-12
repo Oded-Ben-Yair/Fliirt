@@ -1,16 +1,8 @@
-//
-//  ContentView.swift
-//  FlirrtApp
-//
-//  Created by Manus AI on 9/12/25.
-//
-
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
         VStack(spacing: 30) {
-            // Flirrt.ai Logo with heart-shaped 'rr'
             VStack(spacing: 10) {
                 HStack(spacing: 0) {
                     Text("Fli")
@@ -18,7 +10,6 @@ struct ContentView: View {
                         .fontWeight(.bold)
                         .foregroundColor(.primary)
                     
-                    // Heart-shaped 'rr' logo
                     ZStack {
                         Text("❤️")
                             .font(.title)
@@ -43,7 +34,6 @@ struct ContentView: View {
             
             Spacer()
             
-            // Main content
             VStack(spacing: 20) {
                 Image(systemName: "keyboard")
                     .font(.system(size: 60))
@@ -53,61 +43,30 @@ struct ContentView: View {
                     .font(.title2)
                     .fontWeight(.semibold)
                 
-                Text("Get AI-powered flirting suggestions right in your keyboard, across all dating apps.")
+                Text("Get AI-powered flirting suggestions right in your keyboard.")
                     .font(.body)
                     .multilineTextAlignment(.center)
                     .foregroundColor(.secondary)
                     .padding(.horizontal)
-                
-                VStack(alignment: .leading, spacing: 10) {
-                    HStack {
-                        Image(systemName: "checkmark.circle.fill")
-                            .foregroundColor(.green)
-                        Text("Works in Tinder, Bumble, Hinge & more")
-                    }
-                    
-                    HStack {
-                        Image(systemName: "checkmark.circle.fill")
-                            .foregroundColor(.green)
-                        Text("AI analyzes screenshots for context")
-                    }
-                    
-                    HStack {
-                        Image(systemName: "checkmark.circle.fill")
-                            .foregroundColor(.green)
-                        Text("Never leave your dating app")
-                    }
-                }
-                .font(.subheadline)
-                .padding(.horizontal)
             }
             
             Spacer()
             
-            // Setup instructions
-            VStack(spacing: 15) {
-                Button(action: {
-                    // Open Settings app to keyboard settings
-                    if let settingsUrl = URL(string: UIApplication.openSettingsURLString) {
-                        UIApplication.shared.open(settingsUrl)
-                    }
-                }) {
-                    HStack {
-                        Image(systemName: "gear")
-                        Text("Enable Flirrt Keyboard")
-                    }
-                    .font(.headline)
-                    .foregroundColor(.white)
-                    .frame(maxWidth: .infinity)
-                    .padding()
-                    .background(Color.pink)
-                    .cornerRadius(12)
+            Button(action: {
+                if let settingsUrl = URL(string: UIApplication.openSettingsURLString) {
+                    UIApplication.shared.open(settingsUrl)
                 }
-                
-                Text("Go to Settings > General > Keyboard > Keyboards > Add New Keyboard")
-                    .font(.caption)
-                    .foregroundColor(.secondary)
-                    .multilineTextAlignment(.center)
+            }) {
+                HStack {
+                    Image(systemName: "gear")
+                    Text("Enable Flirrt Keyboard")
+                }
+                .font(.headline)
+                .foregroundColor(.white)
+                .frame(maxWidth: .infinity)
+                .padding()
+                .background(Color.pink)
+                .cornerRadius(12)
             }
             .padding(.horizontal)
             .padding(.bottom, 30)
@@ -118,4 +77,3 @@ struct ContentView: View {
 #Preview {
     ContentView()
 }
-

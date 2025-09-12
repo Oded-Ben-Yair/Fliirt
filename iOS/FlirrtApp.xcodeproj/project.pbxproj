@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A2B3C4D5E6F7890ABCD1238 /* FlirrtApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B3C4D5E6F7890ABCD1235 /* FlirrtApp.swift */; };
-		1A2B3C4D5E6F7890ABCD1239 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B3C4D5E6F7890ABCD1236 /* ContentView.swift */; };
+		A1B2C3D4E5F678901234567F /* FlirrtApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F678901234567D /* FlirrtApp.swift */; };
+		A1B2C3D4E5F6789012345680 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F678901234567E /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1A2B3C4D5E6F7890ABCD1232 /* FlirrtApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlirrtApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A2B3C4D5E6F7890ABCD1235 /* FlirrtApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlirrtApp.swift; sourceTree = "<group>"; };
-		1A2B3C4D5E6F7890ABCD1236 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F678901234567A /* FlirrtApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlirrtApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B2C3D4E5F678901234567D /* FlirrtApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlirrtApp.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F678901234567E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1A2B3C4D5E6F7890ABCD123D /* Frameworks */ = {
+		A1B2C3D4E5F6789012345682 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -28,19 +28,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1A2B3C4D5E6F7890ABCD1233 = {
+		A1B2C3D4E5F678901234567B = {
 			isa = PBXGroup;
 			children = (
-				1A2B3C4D5E6F7890ABCD1235 /* FlirrtApp.swift */,
-				1A2B3C4D5E6F7890ABCD1236 /* ContentView.swift */,
-				1A2B3C4D5E6F7890ABCD1234 /* Products */,
+				A1B2C3D4E5F678901234567D /* FlirrtApp.swift */,
+				A1B2C3D4E5F678901234567E /* ContentView.swift */,
+				A1B2C3D4E5F678901234567C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		1A2B3C4D5E6F7890ABCD1234 /* Products */ = {
+		A1B2C3D4E5F678901234567C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1A2B3C4D5E6F7890ABCD1232 /* FlirrtApp.app */,
+				A1B2C3D4E5F678901234567A /* FlirrtApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,13 +48,12 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1A2B3C4D5E6F7890ABCD1231 /* FlirrtApp */ = {
+		A1B2C3D4E5F6789012345679 /* FlirrtApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1A2B3C4D5E6F7890ABCD1243 /* Build configuration list for PBXNativeTarget "FlirrtApp" */;
+			buildConfigurationList = A1B2C3D4E5F6789012345688 /* Build configuration list for PBXNativeTarget "FlirrtApp" */;
 			buildPhases = (
-				1A2B3C4D5E6F7890ABCD123B /* Sources */,
-				1A2B3C4D5E6F7890ABCD123D /* Frameworks */,
-				1A2B3C4D5E6F7890ABCD123C /* Resources */,
+				A1B2C3D4E5F6789012345681 /* Sources */,
+				A1B2C3D4E5F6789012345682 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -62,25 +61,25 @@
 			);
 			name = FlirrtApp;
 			productName = FlirrtApp;
-			productReference = 1A2B3C4D5E6F7890ABCD1232 /* FlirrtApp.app */;
+			productReference = A1B2C3D4E5F678901234567A /* FlirrtApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1A2B3C4D5E6F7890ABCD1230 /* Project object */ = {
+		A1B2C3D4E5F6789012345678 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
-					1A2B3C4D5E6F7890ABCD1231 = {
+					A1B2C3D4E5F6789012345679 = {
 						CreatedOnToolsVersion = 16.0;
 					};
 				};
 			};
-			buildConfigurationList = 1A2B3C4D5E6F7890ABCD1242 /* Build configuration list for PBXProject "FlirrtApp" */;
+			buildConfigurationList = A1B2C3D4E5F6789012345687 /* Build configuration list for PBXProject "FlirrtApp" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -88,40 +87,30 @@
 				en,
 				Base,
 			);
-			mainGroup = 1A2B3C4D5E6F7890ABCD1233;
-			productRefGroup = 1A2B3C4D5E6F7890ABCD1234 /* Products */;
+			mainGroup = A1B2C3D4E5F678901234567B;
+			productRefGroup = A1B2C3D4E5F678901234567C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1A2B3C4D5E6F7890ABCD1231 /* FlirrtApp */,
+				A1B2C3D4E5F6789012345679 /* FlirrtApp */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		1A2B3C4D5E6F7890ABCD123C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		1A2B3C4D5E6F7890ABCD123B /* Sources */ = {
+		A1B2C3D4E5F6789012345681 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A2B3C4D5E6F7890ABCD1239 /* ContentView.swift in Sources */,
-				1A2B3C4D5E6F7890ABCD1238 /* FlirrtApp.swift in Sources */,
+				A1B2C3D4E5F6789012345680 /* ContentView.swift in Sources */,
+				A1B2C3D4E5F678901234567F /* FlirrtApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		1A2B3C4D5E6F7890ABCD123E /* Debug */ = {
+		A1B2C3D4E5F6789012345683 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -171,7 +160,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -181,7 +170,7 @@
 			};
 			name = Debug;
 		};
-		1A2B3C4D5E6F7890ABCD123F /* Release */ = {
+		A1B2C3D4E5F6789012345684 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -225,7 +214,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -234,11 +223,9 @@
 			};
 			name = Release;
 		};
-		1A2B3C4D5E6F7890ABCD1240 /* Debug */ = {
+		A1B2C3D4E5F6789012345685 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "";
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
@@ -257,16 +244,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ai.flirrt.FlirrtApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 6.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		1A2B3C4D5E6F7890ABCD1241 /* Release */ = {
+		A1B2C3D4E5F6789012345686 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "";
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
@@ -285,7 +270,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ai.flirrt.FlirrtApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 6.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -293,25 +278,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1A2B3C4D5E6F7890ABCD1242 /* Build configuration list for PBXProject "FlirrtApp" */ = {
+		A1B2C3D4E5F6789012345687 /* Build configuration list for PBXProject "FlirrtApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1A2B3C4D5E6F7890ABCD123E /* Debug */,
-				1A2B3C4D5E6F7890ABCD123F /* Release */,
+				A1B2C3D4E5F6789012345683 /* Debug */,
+				A1B2C3D4E5F6789012345684 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1A2B3C4D5E6F7890ABCD1243 /* Build configuration list for PBXNativeTarget "FlirrtApp" */ = {
+		A1B2C3D4E5F6789012345688 /* Build configuration list for PBXNativeTarget "FlirrtApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1A2B3C4D5E6F7890ABCD1240 /* Debug */,
-				1A2B3C4D5E6F7890ABCD1241 /* Release */,
+				A1B2C3D4E5F6789012345685 /* Debug */,
+				A1B2C3D4E5F6789012345686 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1A2B3C4D5E6F7890ABCD1230 /* Project object */;
+	rootObject = A1B2C3D4E5F6789012345678 /* Project object */;
 }
