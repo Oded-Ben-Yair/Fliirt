@@ -13,6 +13,10 @@
 		1A2B3C4D5E6F7890ABCD1237 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A2B3C4D5E6F7890ABCD1236 /* Preview Assets.xcassets */; };
 		2B3C4D5E6F7890ABCD123456 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3C4D5E6F7890ABCD123455 /* KeyboardViewController.swift */; };
 		2B3C4D5E6F7890ABCD123457 /* FlirrtKeyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2B3C4D5E6F7890ABCD123454 /* FlirrtKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3C4D5E6F7890ABCD12345679 /* AppGroupCommunicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4D5E6F7890ABCD12345678 /* AppGroupCommunicator.swift */; };
+		3C4D5E6F7890ABCD12345680 /* AppGroupCommunicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4D5E6F7890ABCD12345678 /* AppGroupCommunicator.swift */; };
+		3C4D5E6F7890ABCD12345681 /* PhotoPickerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4D5E6F7890ABCD12345682 /* PhotoPickerManager.swift */; };
+		3C4D5E6F7890ABCD12345683 /* PhotoPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4D5E6F7890ABCD12345684 /* PhotoPickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,9 @@
 		2B3C4D5E6F7890ABCD123455 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
 		2B3C4D5E6F7890ABCD123460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B3C4D5E6F7890ABCD123461 /* FlirrtKeyboard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FlirrtKeyboard.entitlements; sourceTree = "<group>"; };
+		3C4D5E6F7890ABCD12345678 /* AppGroupCommunicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppGroupCommunicator.swift; sourceTree = "<group>"; };
+		3C4D5E6F7890ABCD12345682 /* PhotoPickerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickerManager.swift; sourceTree = "<group>"; };
+		3C4D5E6F7890ABCD12345684 /* PhotoPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +131,9 @@
 		3C4D5E6F7890ABCD12345678 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				3C4D5E6F7890ABCD12345678 /* AppGroupCommunicator.swift */,
+				3C4D5E6F7890ABCD12345682 /* PhotoPickerManager.swift */,
+				3C4D5E6F7890ABCD12345684 /* PhotoPickerView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -230,6 +240,9 @@
 			files = (
 				1A2B3C4D5E6F7890ABCD1235 /* ContentView.swift in Sources */,
 				1A2B3C4D5E6F7890ABCD1234 /* FlirrtApp.swift in Sources */,
+				3C4D5E6F7890ABCD12345679 /* AppGroupCommunicator.swift in Sources */,
+				3C4D5E6F7890ABCD12345681 /* PhotoPickerManager.swift in Sources */,
+				3C4D5E6F7890ABCD12345683 /* PhotoPickerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,6 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B3C4D5E6F7890ABCD123456 /* KeyboardViewController.swift in Sources */,
+				3C4D5E6F7890ABCD12345680 /* AppGroupCommunicator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
